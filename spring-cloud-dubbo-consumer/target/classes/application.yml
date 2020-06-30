@@ -1,5 +1,6 @@
 server:
   port: 8082
+
 dubbo:
   registry:
     # 挂载到 Spring Cloud 注册中心
