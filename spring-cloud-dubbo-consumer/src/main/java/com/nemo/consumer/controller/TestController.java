@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/test")
 public class TestController {
 
-    @Reference(check = false)
+    @Reference
     private TestService testService;
 
     @GetMapping("sayHello")
