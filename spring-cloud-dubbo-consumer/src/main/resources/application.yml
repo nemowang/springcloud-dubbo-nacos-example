@@ -4,7 +4,7 @@ server:
 dubbo:
   registry:
     # 挂载到 Spring Cloud 注册中心
-    address: spring-cloud://localhost
+    address: spring-cloud://127.0.0.1
   cloud:
     subscribed-services: ${provider.application.name}
   consumer:
